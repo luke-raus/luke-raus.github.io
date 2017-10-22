@@ -1,77 +1,10 @@
 <!DOCTYPE html>
 <html>
-	
 	<head>
 		<title>MetaKor</title>
 	</head>
 	
-	<body style="background-color: #0080FF">
-		<canvas id="canvas"></canvas>
-			<script>
-		  		var canvas = document.getElementById("canvas");
-		    	var processing = new Processing(canvas, function(processing) {
-				processing.size(400, 400);
-				processing.background(0xFFF);
-
-				// use degrees rather than radians in rotate function
-				var rotateFn = processing.rotate;
-				processing.rotate = function (angle) {
-				    rotateFn(processing.radians(angle));
-				};
-
-				with (processing) {
-
-					var light = color(66, 157, 255);
-					var mid = color(0, 123, 255);
-					var dark = color(0, 87, 179);
-					var dark = color(30, 30, 30);
-					var big = 25;
-					var i = 0;
-
-					var cube = function(X, Y) {
-						fill(light);
-						stroke(light);
-						quad(X, Y, X-(big*sqrt(3)/2), Y-(big/2), X, Y-big, X+(big*sqrt(3)/2), Y-(big/2));
-						fill(mid);
-						stroke(mid);
-						quad(X, Y, X, Y+big, X-(big*sqrt(3)/2), Y+(big/2), X-(big*sqrt(3)/2), Y-(big/2));
-						fill(dark);
-						noStroke();
-						quad(X, Y, X, Y+big, X+(big*sqrt(3)/2), Y+(big/2), X+(big*sqrt(3)/2), Y-(big/2));
-					};
-
-					var cubeSet = function(X, Y, len) {
-						cube(X-((len*big)*sqrt(3)/2), Y-(big/2));
-						cube(X-(big*sqrt(3)/2), Y+((len*big)/2));
-						cube(X+(big*sqrt(3)/2), Y-((len*big)/2));
-						cube(X+((len*big)*sqrt(3)/2), Y+(big/2));
-					};
-
-					var setSet = function(X, len) {
-						for (var i = (200%big)-big*3/2; i < 400+(big*2); i += big*2) {
-							cubeSet(X, i, len);
-						}
-					};
-
-					var setSetSet = function(X, len) {
-						for (var e = X; e < 400+(big*2*sqrt(3)); e += big*2*sqrt(3)) {
-							setSet(e, len);
-						}
-					};
-
-					var draw = function() {
-						background(30, 30, 30);
-						setSetSet((200%(big*2*sqrt(3)))-big*2*sqrt(3), sin(i));
-						if (i === 179) {
-							i = 0;
-						} else {
-							i++;
-						}
-					};
-					
-				}
-				if (typeof draw !== 'undefined') processing.draw = draw;
-				});
-			</script>
+	<body style="background-color: #191919">
+		
 	</body>
 </html>
