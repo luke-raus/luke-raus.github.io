@@ -1,4 +1,3 @@
-# metakor.github.io
 # lukera.us
 
-My website.
+A guy who does things sometimes.
