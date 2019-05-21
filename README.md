@@ -1,5 +1,5 @@
 # lukera.us
 
-![Spaceship](/images/8-bit Spaceship.png)
+![Spaceship](/images/spaceship.png)
 
 A guy who does things sometimes.
