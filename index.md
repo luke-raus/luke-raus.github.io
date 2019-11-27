@@ -10,6 +10,7 @@ Hardware
 - [Gear Theory](http://54.88.15.24/pdf/gear_theory.pdf)
 - [Gizmology](http://gizmology.net/)
 - [PC Part Picker](http://pcpartpicker.com/)
+
 Software
 - [Explorable Explanations hub](https://explorabl.es/)
 - [Tosh, text-based Scratch](http://tosh.blob.codes/)
@@ -21,14 +22,17 @@ Software
 - [Generated Space experiments](https://generated.space/)
 - [Quilez Fractals](http://www.iquilezles.org/www/index.htm)
 - [Clusters](http://www.ventrella.com/Clusters/)
+
 Inspiration
 - [Pythagora Switch intro compilation](https://vimeo.com/13420214)
 - [Star Wars vehicle cross-sections](https://imgur.com/a/RtM8D)
 - [JVN's quote page](https://johnvneun.com/favorite-quotes)
+
 Articles
 - [Foster Wallace: This is Water speech](https://fs.blog/2012/04/david-foster-wallace-this-is-water/)
 - [Harper: Usefulness of Useless](https://library.ias.edu/files/UsefulnessHarpers.pdf)
 - [Pearl: Climate Despair](https://www.vice.com/en_us/article/j5w374/climate-despair-is-making-people-give-up-on-life)
+
 Utilities
 - [10-Minute Mail](https://10minutemail.com/10MinuteMail/index.html)
 - [BeepBox chiptune music](https://beepbox.co/)
