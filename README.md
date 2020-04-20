@@ -2,4 +2,4 @@
 
 ![Spaceship](/images/spaceship.png)
 
-A guy who does things sometimes.
+Just a simple man trying to make his way in the universe.
