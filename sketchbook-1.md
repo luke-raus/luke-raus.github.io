@@ -4,6 +4,10 @@ title: "Digital Sketchbook 1"
 permalink: /sketchbook-1/
 ---
 
+Can I get an mp4 on here?
+
+![Laser Circle](/images/Sketchbook 1/LaserCircle.mp4)
+
 I've been doing a tiny bit of photographic journalism (if I can call it that) in an effort to capture the emotions & situations of the pandemic. Here are my better shots:
 
 ![Sweatshirt on statue](/images/Sketchbook 1/Sweatshirt.jpg)
