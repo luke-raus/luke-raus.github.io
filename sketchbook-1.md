@@ -6,7 +6,9 @@ permalink: /sketchbook-1/
 
 Can I get an mp4 on here?
 
-![Laser Circle](/images/Sketchbook 1/LaserCircle.mp4)
+<video width="600" height="600" autoplay loop>
+  <source src="/images/Sketchbook 1/LaserCircle.mp4" type="video/mp4">
+</video>
 
 I've been doing a tiny bit of photographic journalism (if I can call it that) in an effort to capture the emotions & situations of the pandemic. Here are my better shots:
 
