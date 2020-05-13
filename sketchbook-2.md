@@ -16,4 +16,11 @@ Before now, every fractal imaged I've included in my sketchbook has been, essent
 
 You can think of this difference like that between a picture of an artwork and the work itself - the difference between seeing something through a grimy window versus holding it in your hand.
 
+This vector format will make it possible for the 3D printer to retrace the exact path of the fractal and draw it on the paper; I am referring to [this guide](https://www.youtube.com/watch?v=CuWZWAfBsm8) to get the software set up.
+
+####How I did it
+
+
+
+
 ![title](/images/Sketchbook 2/####.jpg)
