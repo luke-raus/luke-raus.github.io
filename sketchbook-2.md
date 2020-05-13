@@ -38,6 +38,10 @@ The above code defines the following fractal, shown in its native Processing at 
 
 ![Processing at left and Inkscape path at right](/images/Sketchbook 2/SimpleCompare.png)
 
+This lets me get up close & personal with the details of my fractals like I hadn't before:
+
+![Up close and personal](/images/Sketchbook 2/UpClose.png)
+
 A simple "Object to Path" operation within Inkscape takes the barebones polyline object and adds its more complex Inkscape flavoring with no work on my part. Sweet! I thus get a path with nodes I can control just like any native path. That makes it possible to integrate with the plugins I'll exploit to get my printer plotting. Now on to that!
 
 Bonus
