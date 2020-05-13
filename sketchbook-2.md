@@ -36,7 +36,7 @@ I then realized: since my fractal program works recursively, it actually draws o
 
 The above code defines the following fractal, shown in its native Processing at left and then opened with Inkscape at right:
 
-![Processing at left and Inkscape path at right](/images/Sketchbook 2/SimpleCompare.jpg)
+![Processing at left and Inkscape path at right](/images/Sketchbook 2/SimpleCompare.png)
 
 A simple "Object to Path" operation within Inkscape takes the barebones polyline object and adds its more complex Inkscape flavoring with no work on my part. Sweet! I thus get a path with nodes I can control just like any native path. That makes it possible to integrate with the plugins I'll exploit to get my printer plotting. Now on to that!
 
