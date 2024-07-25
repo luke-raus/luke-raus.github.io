@@ -2,4 +2,4 @@ theme: jekyll-theme-minimal
 title: Luke Ra.us
 description: Robotics | Controls | Sustainability
 logo: /images/headshot.jpg
-favicon: /images/LR_favicon.png
+favicon: favicon.ico
