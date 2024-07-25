@@ -1,7 +1,11 @@
-## Hi! Nice to meet you.
+## Hi! I'm Luke.
 
-I'm Luke Raus, a third-year robotics student at Olin College of Engineering.
-My passions lie at the intersection of mathematics, robotics, and education; I'm particularly interested in modern formulations of state estimation & motion planning problems and recent research into how engineers and physicists represent geometric entities, such as through the tools of geometric algebra.
+I'm an engineer passionate about leveraging robotics & controls to make the world a better place for us all.
 
-#### This site is very much under construction...
-so don't hesitate to bookmark me and check back in a while ;)
+Some of my recent work includes:
+
+- Optimizing building energy use via Reinforcement Learning (RL) in campus HVAC systems
+- Designing and benchmarking novel Model Predictive Control (MPC) algorithms for safety-critical systems
+- Collaborating with Semtech on developing a distributed IoT solution to preventing damage from freezing in plumbing systems
+
+I graduated with a B.S. in Engineering with a concentration in Robotics from [Olin College of Engineering](https://www.olin.edu/) in 2024. You can check out some of my work on my [Github](https://github.com/luke-raus).
