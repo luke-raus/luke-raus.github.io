@@ -1,5 +1,3 @@
 # lukera.us
 
-![Spaceship](/images/spaceship.png)
-
-Just a simple man trying to make his way in the universe.
+My homepage on the interwebs where I can demo some projects. Check it out!
