@@ -145,4 +145,15 @@ h2 {
     .projects-grid {
         grid-template-columns: 1fr;
     }
+
+    .infobox-content {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .infobox-image {
+        margin-right: 0;
+        margin-bottom: 15px;
+        align-self: center;
+    }
 }
