@@ -1,6 +1,6 @@
 :root{
     --link-blue: #4a7dfd;
-    --bg-gray: #f4f4f9;
+    --bg-light-gray: #f4f4f9;
     --body-dark-gray: #333;
 }
 
@@ -16,35 +16,14 @@ header {
     margin-bottom: 20px;
 }
 
-header a {
-    color: var(--link-blue);
-    text-decoration: none;
-}
-
-header a:hover {
-    text-decoration: underline;
-}
-
-body {
-    font-family: Arial, sans-serif;
-    background-color: var(--bg-gray);
-    color: var(--body-dark-gray);
-    padding: 20px;
-    line-height: 1.3;
-}
-
-body > p a {
-    color: var(--link-blue);
-    text-decoration: none;
-}
-
-body > p a:hover {
-    text-decoration: underline;
-}
-
 h1 {
     font-size: 2.5em;
     margin-bottom: 5px;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
 }
 
 footer {
@@ -52,21 +31,33 @@ footer {
     margin-top: 30px;
 }
 
-footer a {
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--bg-light-gray);
+    color: var(--body-dark-gray);
+    padding: 20px;
+    line-height: 1.3;
+}
+
+header a, .infobox a, footer a {
     color: var(--link-blue);
     text-decoration: none;
 }
 
-footer a:hover {
+header a:hover, .infobox a:hover, footer a:hover {
     text-decoration: underline;
 }
 
-.infobox {
+.infobox, .project {
     background-color: white;
-    max-width: 1060px;
-    padding: 20px;
-    border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.infobox, .projects-grid {
+    max-width: 1060px;
     margin: 0 auto 20px auto;
 }
 
@@ -78,7 +69,7 @@ footer a:hover {
 .infobox-image {
     max-width: 150px;
     height: auto;
-    border-radius: 8px;
+    border-radius: 6px;
     margin-right: 20px;
 }
 
@@ -90,26 +81,25 @@ footer a:hover {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
-    max-width: 1060px;
-    margin: 0 auto;
 }
 
 .project {
-    background-color: white;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
 }
 
 .project-link{
+    text-decoration: none;
+    color: inherit;
+    display: block;
     transition: transform 0.3s ease;
     border-radius: 8px;
 }
 
 .project-link:hover {
+    text-decoration: underline;
     box-shadow: 0 6px 10px rgba(0, 0, 0, 0.23);
     transform: translateY(-4px);
     cursor: pointer;
@@ -122,22 +112,6 @@ footer a:hover {
     object-fit: cover;
     border-radius: 6px;
     margin-bottom: 15px;
-}
-
-h2 {
-    font-size: 1.5em;
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.project-link {
-    text-decoration: none;
-    color: inherit;
-    display: block;
-}
-
-.project-link:hover {
-    text-decoration: underline;
 }
 
 /* Mobile responsiveness */
