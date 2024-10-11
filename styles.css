@@ -44,21 +44,29 @@ header a, .infobox a, footer a {
     text-decoration: none;
 }
 
-header a:hover, .infobox a:hover, footer a:hover {
+a:hover {
     text-decoration: underline;
 }
 
-.infobox, .project {
-    background-color: white;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
-    border-radius: 8px;
-    padding: 20px;
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
 }
 
 .infobox, .projects-grid {
     max-width: 1060px;
     margin: 0 auto 20px auto;
+}
+
+.infobox, .project {
+    display: block;
+    background-color: white;
+    text-decoration: none;
+    color: inherit;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 20px;
 }
 
 .infobox-content {
@@ -77,12 +85,6 @@ header a:hover, .infobox a:hover, footer a:hover {
     flex: 1;
 }
 
-.projects-grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
-}
-
 .project {
     display: flex;
     flex-direction: column;
@@ -90,19 +92,18 @@ header a:hover, .infobox a:hover, footer a:hover {
     text-align: center;
 }
 
-.project-link{
-    text-decoration: none;
-    color: inherit;
-    display: block;
-    transition: transform 0.3s ease;
-    border-radius: 8px;
+.has-link:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.23);
+    cursor: pointer;
 }
 
-.project-link:hover {
-    text-decoration: underline;
-    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.23);
-    transform: translateY(-4px);
-    cursor: pointer;
+.has-link {
+    transition: transform 0.3s ease;
+}
+
+.no-link:hover {
+    text-decoration: none;
 }
 
 .project-thumbnail {
